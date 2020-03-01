@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Wildfire: Bar and Grill | Home</title>
+</head>
+<body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="css/images/logo.png" width="135" height="135">
+                    </a>
+                    <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" data-target="#wildfireNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="wildfireNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item active"><a href="#" class="nav-link">Food</a></li>
+                            <li class="nav-item"><a href="drinks.html" class="nav-link">Drinks</a></li>
+                            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                            <li class="nav-item"><a href="jobs.html" class="nav-link">Jobs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="red-header mb-2">Main Entrée</h1>
+                <h5>Click or tap for more info</h4>
+            </div>
+        </div>
+    </div>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                     aria-controls="collapseOne">Steak and Asparagus</button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body" style="background-image: url('css/images/steak-and-asparagus.jpg');">
+                   <span>A guilty pleasure and a healthy obligation combined to make the perfect meal for a night out.</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                     aria-controls="collapseTwo">Street Tacos</button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body" style="background-image: url('css/images/street-tacos.jpg')">
+                    <span>Our colorful and flavorful tacos will leave your tastebuds saying "gracias!" Choose our tantalizing
+                    carnitas or our classic shredded chicken.</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+                     aria-controls="collapseThree">Hot Damn! Wings&trade;</button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body" style="background-image:url('css/images/chicken-wings.jpg')">
+                    <span>Our signature dish: a savory journey through a blend of 12 different spices, perfectly balanced by our 
+                    patented recipe. A community favorite for the past 25 years and sure to be a love at first bite.</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                     aria-controls="collapseFour">Fire-Roasted Pizza</button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body" style="background-image: url('css/images/pizzas-near-fireplace.jpg')">
+                    <span>Baked in a woodfire oven to ensure consistent flavor, we pay special attention to detail with our
+                    Italian herbs and parmesan-infused crust with your choice of toppings:</span>
+                    <ul class="list-unstyled">
+                        <li><span>- Beef</span></li>
+                        <li><span>- Pepperoni</span></li>
+                        <li><span>- Onion</span></li>
+                        <li><span>- Green Pepper</span></li>
+                        <li><span>- Spinach</span></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
+                     aria-controls="collapseFive">Classic Smash Burger</button>
+                     <!-- <small><sup>*Ask about our veggie burger as well!</sup></small> -->
+                </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="card-body" style="background-image:url('css/images/smash-burger.jpg')">
+                    <span>There's no passing on this Grade-A beef powerhouse. Topped with fresh lettuce, juicy tomato,
+                    and crisp onion, you can't go wrong with this seductive selection.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="red-header mb-2">Sides</h1>
+                <h5>Click or tap for more info</h5>
+            </div>
+        </div>
+    </div>
+
+    <div id="accordion2">
+        <div class="card">
+            <div class="card-header" id="sideHeadingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true"
+                     aria-controls="collapseOne">Sweet Potato Fries</button>
+                </h5>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="sideHeadingOne" data-parent="#accordion2">
+                <div class="card-body" style="background-image: url('css/images/sweet-potato-fries.jpg');">
+                   <span>A light crunch with some sweetness is a main entrée's best friend.</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="sideHeadingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
+                     aria-controls="collapseOne">Classic Wedges</button>
+                </h5>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="sideHeadingOne" data-parent="#accordion2">
+                <div class="card-body" style="background-image: url('css/images/potato-wedges.jpg');">
+                   <span>Specially seasoned with just the right amount of salt 'n' pepper kick, these are sure to please
+                       any fry connoisseur.
+                   </span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="sideHeadingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true"
+                     aria-controls="collapseOne">Side Salad</button>
+                </h5>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="sideHeadingOne" data-parent="#accordion2">
+                <div class="card-body" style="background-image: url('css/images/side-salad.jpg');">
+                   <span>For those who want to "be good" and have a healthy mix of freshness and flavor.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+<footer class="site-footer py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="text-left">Grab a beer, grab a friend, and remember:</h5>
+                <blockquote><p class="mb-0"><span>You don't need a silver fork to eat good food.</span></p>
+                    <footer class="blockquote-footer" style="color: white;">Paul Purdhomme</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-3">
+                <h5 class="text-left">Navigation</h5>
+                <ul class="list-unstyled m-lg-0">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="drinks.html">Drinks</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a class="navbar-brand" href="index.html">
+                    <img src="css/images/logo.png" width="125" height="125">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

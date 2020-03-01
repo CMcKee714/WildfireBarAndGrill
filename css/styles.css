@@ -1,0 +1,503 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Lato:700|Montserrat|Oswald|Oxanium&display=swap');
+
+/* Body */
+
+body {
+    background: rgb(235, 234, 234);
+}
+
+/* Order Button */
+
+/* .order-button a{
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #AA1A1A;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.order-button a:hover{
+    color: white;
+    background-color: #AA1A1A;
+    box-shadow: 0 0 10px #AA1A1A, 0 0 40px #AA1A1A, 0 0 80px #AA1A1A;
+    text-decoration: none;
+} */
+
+/* Header */
+
+.jumbotron {
+    margin: 0;
+    padding: 20px;
+    background-color: #2D2D2A;
+    color: white;
+    height: 190px;
+    
+}
+
+nav {
+    background: linear-gradient(#252525, #000000);
+    /* max-width: 100%; */
+    /* height: 140px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+/* .navbar-nav li {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#252525, #000000);
+} */
+
+/* Page Content */
+
+#carousel-item img {
+    max-height: 600px;
+}
+
+
+.red-header {
+    color: #AA1A1A;
+    font-size: 45px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.secondary-text-1 {
+    text-align: center;
+    vertical-align: center;
+    padding: 60px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: dashed black 2px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.secondary-text-2 {
+    text-align: center;
+    vertical-align: center;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 60px;
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.email-banner {
+    padding: 75px 50px 75px;
+    align-content: center;
+    text-align: center;
+    background: url('images/three-women-sitting-on-bench.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 275px;
+}
+
+/* The original email-banner I put together instead of the parallax */
+/* .email-banner {
+    padding: 75px 50px 75px;
+    align-content: center;
+    text-align: center;
+    background: url("images/three-women-sitting-on-bench.jpg");
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+div.email-banner h2,
+div.email-banner p {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.email-button {
+    width: 250px;
+    height: 45px;
+    color: white;
+    background: linear-gradient(#f84242, #7C2121);
+    border: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.instagram-logo {
+    color: hotpink;
+}
+
+/* Menu Accordion */
+
+.card-header {
+    background-color: #2D2D2A;
+    border: black solid;
+
+}
+
+.btn-link {
+    color: rgb(197, 197, 197);
+    font-family: 'Oxanium', sans-serif;
+    font-size: 20px;
+}
+
+.btn-link:hover,
+.btn-link:active {
+    color: white;
+    text-decoration: none;
+}
+
+.card-body {
+    height: 500px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    align-self: center;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-body span {
+    text-shadow: 1px 2px black;
+    background: rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: "Montesserat", sans-serif;
+    text-align: center;
+    vertical-align: center;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+/* Drinks */
+
+.drinks-opening-image img {
+    width: 100%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.parallax-drinks {
+    background: url('images/drinks-opening-image-1.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax-beer {
+    background: url('images/beer-sign.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax-wine {
+    background: url('images/wine-sign-on-table.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax-text {
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+}
+
+.black-header {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.black-header-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.black-header-3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-dark {
+    padding: 100px 50px;
+    background: linear-gradient(#383838, #000000);
+    color: white;
+    text-align: center;
+    height: 400px;
+}
+
+.info-dark h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.info-dark li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info {
+    padding: 100px 50px;
+    background: rgb(235, 234, 234);
+    color: black;
+    text-align: center;
+    height: 400px;
+}
+
+.info h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.info li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.media img {
+    width: 100%;
+    height: auto;
+}
+
+/* Services */
+
+.form-light {
+    color: black;
+}
+
+.form-light h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-light label {
+    font-family: 'Oxanium', sans-serif;
+}
+
+
+.form-dark {
+    background: linear-gradient(#383838, #000000);
+    color: white;
+}
+
+.form-dark h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-dark label {
+    font-family: 'Oxanium', sans-serif;
+}
+
+.parallax-reserve {
+    background: url('images/drinking-at-table.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+/* Jobs */
+
+.red-banner {
+    background-color:  #AA1A1A;
+    color: white;
+    text-align: center;
+}
+
+.white-header {
+    font-family: 'Oxanium', sans-serif;
+}
+
+.white-header-5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parallax-jobs {
+    background: url('images/bartender-smiling.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+/* Footer */
+
+.site-footer {
+    background: linear-gradient(#272727, rgb(61, 61, 61));
+    color: white;
+}
+
+.site-footer h5 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.site-footer span {
+    font-family: "Lacquer", sans-serif;
+    color: white;
+}
+
+.site-footer a {
+    color: darkgrey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-footer a:hover {
+    color: #AA1A1A;
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 400px) {
+    .card-body span {
+        text-shadow: 1px 2px black;
+        background: rgba(0, 0, 0, 0.15);
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .info-dark {
+        padding: 50px 25px;
+        background: linear-gradient(#383838, #000000);
+        color: white;
+        text-align: center;
+        height: 400px;
+    }
+    
+    .info-dark h3 {
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .info-dark li {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .info {
+        padding: 50px 25px;
+        background: rgb(235, 234, 234);
+        color: black;
+        text-align: center;
+        height: 400px;
+    }
+    
+    .info h3 {
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .info li {
+        font-family: 'Montserrat', sans-serif;
+    }
+  }
+
+@media only screen and (max-width: 550px) {
+    .email-banner {
+        padding: 40px 25px 40px;
+        align-content: center;
+        text-align: center;
+        background: url('images/three-women-sitting-on-bench.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 275px;
+    }
+
+    .order-button a{
+        position: relative;
+        display: inline-block;
+        padding: 8px 15px;
+        color: #AA1A1A;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 18px;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+    
+    .order-button a:hover{
+        color: white;
+        background-color: #AA1A1A;
+        box-shadow: 0 0 10px #AA1A1A, 0 0 40px #AA1A1A, 0 0 80px #AA1A1A;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-body span {
+        text-shadow: 1px 2px black;
+        background: rgba(0, 0, 0, 0.15);
+        font-weight: 500;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .parallax-drinks {
+        background: url('images/drinks-opening-image-1.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 600px;
+    }
+    
+    .parallax-beer {
+        background: url('images/beer-sign.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 600px;
+    }
+    
+    .parallax-wine {
+        background: url('images/wine-sign-on-table.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 600px;
+    }
+}
+
+/* @media only screen and (max-width: 1000px) {
+    .order-button a{
+        position: relative;
+        display: inline-block;
+        padding: 8px 15px;
+        color: #AA1A1A;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 18px;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+    
+    .order-button a:hover{
+        color: white;
+        background-color: #AA1A1A;
+        box-shadow: 0 0 10px #AA1A1A, 0 0 40px #AA1A1A, 0 0 80px #AA1A1A;
+        text-decoration: none;
+    }
+} */
